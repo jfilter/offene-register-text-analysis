@@ -1,1 +1,2 @@
-rsvg-convert -w 600 -b white $1 > $1.jpg
+w=2000
+rsvg-convert -w $w -b white $1 > $1$w.jpg
